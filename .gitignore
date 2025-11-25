@@ -1,0 +1,13 @@
+
+
+#BUILD DIR
+linux/
+build/
+
+
+
+#FILE
+.o
+.ko
+
+
