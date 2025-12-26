@@ -3,7 +3,8 @@
 #BUILD and Kernel DIR
 linux/
 build/
-
+initramfs/
+initramfs.cpio.gz
 
 
 #FILE
