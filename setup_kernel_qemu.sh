@@ -25,7 +25,7 @@ EOF
 
 function start_kernel_script(){
 
-  qemu-system-x86_64 -kernel linux/arch/x86/boot/bzImage -initrd initramfs.cpio.gz -append "console=ttyS0 earlyprintk=serial nokaslr panic=-1" -nographic -no-reboot
+  qemu-system-x86_64 -kernel linux/arch/x86/boot/bzImage -initrd initramfs.cpio.gz -append "console=ttyS0 earlyprintk=serial nokaslr panic=-1" -nographic -no-reboot -S -s
 }
 
 function clear_kernel_script(){
