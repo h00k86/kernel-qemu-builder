@@ -33,3 +33,20 @@ function clear_kernel_script(){
   rm initramfs.cpio.gz
 }
 
+
+case "$1" in 
+    download)
+        download_kernel
+        ;;
+
+    start)
+        echo "start kernel"
+        ;;
+    *)
+        echo "usage: $0 {download | build | start | all} "
+        ;;
+esac
+        
+
+
+
