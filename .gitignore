@@ -6,9 +6,11 @@ build/
 initramfs/
 initramfs.cpio.gz
 
-
 #FILE
 .o
 .ko
+
+#FS
+rootfs.img
 
 
